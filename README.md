@@ -19,7 +19,23 @@ RMC (Reflective Multi-Chat) is an innovative Python-based AI bot designed for op
 
 ## Usage
 
-Run the `main.py` script in your terminal: `python main.py`
+This script allows you to interact with OpenAI's GPT-4 model to generate responses to user inputs. It provides a chat interface where you can ask questions and receive answers from the model. The script also includes a feature to generate multiple responses and analyze them for potential errors.
+
+Setting the Number of Responses
+The number of responses generated for each user input is determined by the length of the temperatures list. Each temperature in the list corresponds to one response. To change the number of responses, modify the temperatures list in the chat_with_gpt function. For example, to generate 4 responses, you could set temperatures = [0.6, 0.7, 0.8, 0.9].
+
+Changing the Temperature
+The temperature parameter controls the randomness of the model's output. A higher temperature results in more random outputs, while a lower temperature results in more deterministic outputs. You can adjust the temperature for each response by modifying the values in the temperatures list in the chat_with_gpt function.
+
+Changing the Model
+The model used for generating responses is set in the generate_response function. By default, it uses the "gpt-4" model. To use a different model, change the model parameter in the generate_response function. For example, to use GPT-3, you would set model="text-davinci-003".
+
+Running the Script
+Before running the script, make sure you have set your OpenAI API key as an environment variable. You can do this by creating a .env file in the same directory as the script and adding the line API_KEY=your_api_key_here, replacing your_api_key_here with your actual OpenAI API key.
+
+To run the script, navigate to the directory containing the script in your terminal and run the command python script_name.py, replacing script_name.py with the name of your script.
+
+During execution, you can interact with the chat interface by typing your inputs at the prompt. To exit the chat, type "quit".
 
 ## Contributing
 
