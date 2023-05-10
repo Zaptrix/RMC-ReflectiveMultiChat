@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ReflectiveMultiChat", "ReflectiveMultiChat.pyproj", "{BBE07D13-8336-433D-BCAF-1FD1C6012009}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBE07D13-8336-433D-BCAF-1FD1C6012009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE07D13-8336-433D-BCAF-1FD1C6012009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7711A2F9-F246-4778-9EFB-02743B38781C}
+	EndGlobalSection
+EndGlobal
